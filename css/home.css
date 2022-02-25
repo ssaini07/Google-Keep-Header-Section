@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 14vh;
+    background: #f3f3f3;
+}
+
+.section-content-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.8rem;
+    padding-left: 1rem;
+}
+
+.menu {
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.menu-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.googlekeepimage>img {
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.keep-text-item {
+    opacity: 0.8;
+    transform: translate(0px, 0px);
+    font-family: gt-sectra;
+    font-weight: lighter;
+    font-size: 22px;
+    line-height: 1rem;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+
+.section-content-two {
+    height: 60%;
+    padding: 0;
+}
+
+.search-box {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchButton {
+    width: 40px;
+    height: 50px;
+    border: 1px solid #ababac;
+    background: #b8b9b9;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.search-field {
+    width: 450px;
+    border: 1px solid #959696;
+    border-right: none;
+    padding: 5px;
+    height: 50px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: black;
+}
+
+.section-content-three {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.8rem;
+}
+
+.reload,
+.list-view,
+.settings {
+    width: 45px;
+    height: 45px;
+    padding-top: .7rem;
+}
+
+.reload-icon,
+.list-view-icon,
+.settings-icon {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.section-content-four {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1rem;
+    gap: 0.8rem;
+}
+
+.listingthings-icon,
+.s-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+/* Section : 2 */
+
+.section-elements {
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    width: 50%;
+    margin: 3rem 3rem;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.icons-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons>div img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.close-text {
+    margin: 1.5rem;
+    font-size: 20px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.title,
+.take-a-note {
+    margin: 0.5rem;
+}
+
+.title>input {
+    width: 450px;
+    border: 1px solid #959696;
+    border-right: none;
+    padding: 5px;
+    height: 50px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: black;
+    border-width: 0px;
+    border: none;
+    outline: none;
+}
+
+.take-a-note {
+    height: 60%;
+    padding: 0;
+}
+
+.take-a-note>input {
+    width: 450px;
+    border: 1px solid #959696;
+    border-right: none;
+    padding: 5px;
+    height: 50px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: black;
+    border-width: 0px;
+    border: none;
+    outline: none;
+}
